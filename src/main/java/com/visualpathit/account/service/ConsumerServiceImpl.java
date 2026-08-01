@@ -25,5 +25,6 @@ public class ConsumerServiceImpl implements ConsumerService {
     public void consumerMessage(byte[] data) {
         String consumedMessage = new String(data);
         System.out.println(" [x] Consumed  '" + consumedMessage + "'");
+        System.out.println("GitHub Actions Pipeline Test");
     }
 }
